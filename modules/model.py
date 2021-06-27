@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Contributors: Nitin Mane
+Contributors: Salvatore Raieli
 
 """
 
@@ -72,10 +72,7 @@ class model(AbstractModel):
 		pass
 
 	def figures_of_merit(self):
-		""" Calculates/prints the figures of merit.
-
-		https://homes.di.unimi.it/scotti/all/
-		"""
+		""" Calculates/prints the figures of merit. """
 		pass
 
 	def load(self):

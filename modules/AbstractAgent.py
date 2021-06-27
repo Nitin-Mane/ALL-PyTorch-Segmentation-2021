@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ Abstract class representing a AI Agent.
 
 Represents a AI Agent. AI Agents process data using local AI
@@ -44,16 +44,6 @@ class AbstractAgent(ABC):
 
 	This object represents a AI Agent. AI Agents
 	process data using local AI models.
-
-	Attributes
-	----------
-	NA
-
-	Methods
-	-------
-	mqtt_conn()
-		Creates a MQTT connection with the iotJumpWay
-		private MQTT broker.
 	"""
 
 	def __init__(self):
