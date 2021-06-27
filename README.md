@@ -11,6 +11,7 @@
 
 - [Introduction](#introduction)
 - [DISCLAIMER](#disclaimer)
+- [Motivation](#motivation)
 - [Acute Lymphoblastic Leukemia](#acute-lymphoblastic-leukemia)
 - [ALL IDB](#all-idb)
 - [Segmentation](#segmentation)
@@ -24,9 +25,9 @@
 &nbsp;
 
 # Introduction
-The **Acute Lymphoblastic Leukemia Pytorch Segmentation 2021** is a Pytorch segmentation model which pipoints exactly where the cancerous cells are within images of peripheral blood samples.
+The **Acute Lymphoblastic Leukemia Pytorch Segmentation 2021** is a Pytorch segmentation model which pinpoints exactly where the cancerous cells are within images of peripheral blood samples. This project is our first project using Pytorch, and also our first segmentation project.
 
-This project is our first project using Pytorch, and also our first segmentation project.
+**DEVELOPER TO EXPLAIN/UPDATE THE PROJECT**
 
 &nbsp;
 
@@ -39,6 +40,12 @@ Although the model is accurate and shows good results both on paper and in real 
 Developers that have contributed to this repository have experience in using Artificial Intelligence for detecting certain types of cancer. They are not doctors, medical or cancer experts.
 
 Please use this system responsibly.
+
+&nbsp;
+
+# Motivation
+
+**DEVELOPER TO PROVIDE MOTIVATION FOR THE PROJECT**
 
 &nbsp;
 
@@ -56,7 +63,7 @@ You need to be granted access to use the Acute Lymphoblastic Leukemia Image Data
 
 # Getting Started
 
-To get started follow the [getting started guide](documentation/getting-started.md) to find out how to fork the repository.
+To get started follow the [getting started guide](docs/getting-started.md) to find out how to fork the repository.
 
 &nbsp;
 

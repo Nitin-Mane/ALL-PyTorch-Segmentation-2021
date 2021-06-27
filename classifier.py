@@ -1,7 +1,7 @@
-#!/usr/bin/env python
-""" AI Agent.
+#!/usr/bin/env python3
+""" AI Classifier.
 
-AI Agents process data using local AI models.
+AI Classifiers process data using AI models.
 
 MIT License
 
@@ -26,7 +26,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Contributors: Nitin Mane
+Contributors: Nitn Mane
 
 """
 
@@ -40,11 +40,12 @@ from modules.helpers import helpers
 from modules.model import model
 
 
-class agent(AbstractAgent):
+class classifier(AbstractAgent):
 	""" Acute Lymphoblastic Leukemia Pytorch Segmentation 2021 AI Agent
 
-	Represents a AI Agent that processes data
-	using the Acute Lymphoblastic Leukemia Pytorch Segmentation 2021 model.
+	Represents an AI Classifier that processes data
+	using the Acute Lymphoblastic Leukemia Pytorch
+	Segmentation 2021 model.
 	"""
 
 	def train(self):
