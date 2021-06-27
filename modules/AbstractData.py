@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ AI Model Data Abstract Class.
 
 Provides the AI Model with the required required data

@@ -1,9 +1,10 @@
 # Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project
 ## Acute Lymphoblastic Leukemia Pytorch Segmentation 2021
 
-![Acute Lymphoblastic Leukemia Pytorch Segmentation 2021](assets/images/ALL-PyTorch-Segmentation-2021.jpg)
+![Acute Lymphoblastic Leukemia Pytorch Segmentation 2021](assets/images/project-banner.jpg)
 
-[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.0.0-blue.svg)](https://github.com/AMLResearchProject/ALL-PyTorch-Segmentation-2021/tree/0.0.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-1.0.0-blue.svg)](https://github.com/AMLResearchProject/ALL-PyTorch-Segmentation-2021/tree/1.0.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
+[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.0.0-blue.svg)](https://github.com/AMLResearchProject/ALL-PyTorch-Segmentation-2021/tree/0.0.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-1.0.0-blue.svg)](https://github.com/AMLResearchProject/ALL-PyTorch-Segmentation-2021/tree/1.0.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/) [![Documentation Status](https://readthedocs.org/projects/acute-lymphoblastic-leukemia-pytorch-segmentation-2021/badge/?version=latest)](https://acute-lymphoblastic-leukemia-pytorch-segmentation-2021.readthedocs.io/en/latest/?badge=latest)
+ [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4997/badge)](https://bestpractices.coreinfrastructure.org/projects/4997)
 
 &nbsp;
 
@@ -11,6 +12,7 @@
 
 - [Introduction](#introduction)
 - [DISCLAIMER](#disclaimer)
+- [Motivation](#motivation)
 - [Acute Lymphoblastic Leukemia](#acute-lymphoblastic-leukemia)
 - [ALL IDB](#all-idb)
 - [Segmentation](#segmentation)
@@ -24,9 +26,9 @@
 &nbsp;
 
 # Introduction
-The **Acute Lymphoblastic Leukemia Pytorch Segmentation 2021** is a Pytorch segmentation model which pipoints exactly where the cancerous cells are within images of peripheral blood samples.
+The **Acute Lymphoblastic Leukemia Pytorch Segmentation 2021** is a Pytorch segmentation model which pinpoints exactly where the cancerous cells are within images of peripheral blood samples. This project is our first project using Pytorch, and also our first segmentation project.
 
-This project is our first project using Pytorch, and also our first segmentation project.
+**DEVELOPER TO EXPLAIN/UPDATE THE PROJECT**
 
 &nbsp;
 
@@ -39,6 +41,12 @@ Although the model is accurate and shows good results both on paper and in real 
 Developers that have contributed to this repository have experience in using Artificial Intelligence for detecting certain types of cancer. They are not doctors, medical or cancer experts.
 
 Please use this system responsibly.
+
+&nbsp;
+
+# Motivation
+
+**DEVELOPER TO PROVIDE MOTIVATION FOR THE PROJECT**
 
 &nbsp;
 
@@ -56,7 +64,7 @@ You need to be granted access to use the Acute Lymphoblastic Leukemia Image Data
 
 # Getting Started
 
-To get started follow the [getting started guide](documentation/getting-started.md) to find out how to fork the repository.
+To get started follow the [getting started guide](docs/getting-started.md) to find out how to fork the repository.
 
 &nbsp;
 
