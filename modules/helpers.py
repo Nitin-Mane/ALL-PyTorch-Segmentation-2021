@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ AI Agent Helpers file.
 
 Configuration and logging functions.
@@ -83,9 +84,6 @@ class helpers():
 
 	def loadConfs(self):
 		""" Load the configuration. """
-
-		with open(os.path.dirname(os.path.abspath(__file__)) + '/../configuration/credentials.json') as credentials:
-			self.credentials = json.loads(credentials.read())
 
 		with open(os.path.dirname(os.path.abspath(__file__)) + '/../configuration/config.json') as confs:
 			self.confs = json.loads(confs.read())

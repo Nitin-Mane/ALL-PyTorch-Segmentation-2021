@@ -3,12 +3,7 @@
         "cores": 8,
         "params": [
             "train",
-            "classify",
-            "server",
-            "classify_http",
-            "classify_openvino",
-            "server_openvino",
-            "classify_openvino_http"
+            "classify"
         ]
     },
     "data": {
