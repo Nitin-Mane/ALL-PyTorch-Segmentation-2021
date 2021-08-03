@@ -10,25 +10,33 @@
 
 # Table Of Contents
 
+- [Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project](#peter-moss-acute-myeloid--lymphoblastic-leukemia-ai-research-project)
+  - [Acute Lymphoblastic Leukemia Pytorch Segmentation 2021](#acute-lymphoblastic-leukemia-pytorch-segmentation-2021)
+- [Table Of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [DISCLAIMER](#disclaimer)
 - [Motivation](#motivation)
 - [Acute Lymphoblastic Leukemia](#acute-lymphoblastic-leukemia)
-- [ALL IDB](#all-idb)
-- [Segmentation](#segmentation)
+- [ALL-IDB](#all-idb)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
   - [Contributors](#contributors)
 - [Versioning](#versioning)
 - [License](#license)
-- [Bugs/Issues](#bugs-issues)
+- [Bugs/Issues](#bugsissues)
 
 &nbsp;
 
 # Introduction
 The **Acute Lymphoblastic Leukemia Pytorch Segmentation 2021** is a Pytorch segmentation model which pinpoints exactly where the cancerous cells are within images of peripheral blood samples. This project is our first project using Pytorch, and also our first segmentation project.
 
-**DEVELOPER TO EXPLAIN/UPDATE THE PROJECT**
+Acute lymphoblastic leukemia (ALL) is a sort of blood malignancy that beginnings in white platelets in your bone marrow, the delicate inward piece of your bones. It creates from juvenile lymphocytes, a sort of white platelet that is critical to your immune system.
+
+ALL is also known as acute lymphocytic leukemia or acute lymphoid leukemia. ”Acute” means it gets worse quickly. It’s a rare type of leukemia, or blood cancer, in adults but the most common type in children.
+
+Acute lymphoblastic leukemia invades your blood and can spread to other organs, such as your liver, spleen, and lymph nodes. But it usually doesn’t make tumors like other types of cancer.
+
+The initiative is focused on Acute Lymphoblastic Leukemia (ALL), a serious blood pathology that can being fatal in as little as a few weeks if left untreated, most common in childhood with a peak incidence at 2-5 years of age.
 
 &nbsp;
 
@@ -46,7 +54,7 @@ Please use this system responsibly.
 
 # Motivation
 
-**DEVELOPER TO PROVIDE MOTIVATION FOR THE PROJECT**
+The Acute Lymphoblastic Leukemia is the trending research on-going and mostly focused on the cells classification and detection but the segmentation is the challenging techniques for identifying the cells structure based on the pixels and classify the masked result using deep learning methods. The motivation for the project is to identify the challenges and run case study for tackle the issues arise for the segmentation process and provide sufficient results.
 
 &nbsp;
 
