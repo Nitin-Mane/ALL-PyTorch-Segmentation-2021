@@ -5,33 +5,86 @@
 # Introduction
 This guide will guide you through the installation process for the **Acute Lymphoblastic Leukemia Pytorch Segmentation 2021** Jupyter Notebook.
 
-<font color='red'>DEVELOPER TO EXPLAIN/UPDATE THE JUPYTER NOTEBOOK PROJECT DETAILS</font>
+The 
 
 &nbsp;
 
 # Prerequisites
 You will need to ensure you have the following prerequisites installed and setup.
 
-<font color='red'>DEVELOPER TO EXPLAIN/UPDATE THE PREQUISITE DETAILS</font>
+1. Nvidia CUDA Toolkit (Optional)
+
 
 &nbsp;
 
 # Operating System
 The Acute Lymphoblastic Leukemia Pytorch Segmentation 2021 Jupyter Notebook supports the following operating system(s).
 
-<font color='red'>DEVELOPER TO LIST COMPATIBLE OPERATING SYSTEM(S). MUST BE TESTED BEFORE LISTING</font>
+1. Windows 7, 8, 10 and 11
+2. Ubuntu 20.04 LTS
+3. macOS 11.0 
 
 &nbsp;
 
 # Software
 The Acute Lymphoblastic Leukemia Pytorch Segmentation 2021 Jupyter Notebook project uses the following libraries.
 
-<font color='red'>DEVELOPER TO LIST SOFTWARE LIBRARIES USED</font>
+1. Anaconda IDE
 
 &nbsp;
 
 # Installation
 You are now ready to install the Acute Lymphoblastic Leukemia Pytorch Segmentation 2021 Jupyter Notebook.
+
+In the Anaconda Software IDE has inbuild Jupter Notebook and JupyterLab kernels defauts but we will be creating a environment for the python version and install libraries follows: 
+
+Open Anaconda Prompt (anaconda3)
+
+### Check conda is installed and in your PATH 
+1. Open a terminal client.
+2. Enter 'conda -V' into the terminal command line and press enter.
+3. If conda is installed you should see somehting like the following.
+
+```
+$ conda -V
+conda 3.7.0
+```
+### Check conda is up to date
+In the terminal client enter
+
+```
+conda update conda
+```
+Upadate any packages if necessary by typing y to proceed.
+
+### Create a virtual environment for your project
+
+In the terminal client enter the following where yourenvname is the name you want to call your environment, and replace x.x with the Python version you wish to use. (To see a list of available python versions first, type conda search "^python$" and press enter.)
+
+```
+conda create -n pytorch python=3.7 anaconda
+```
+Press y to proceed. This will install the Python version and all the associated anaconda packaged libraries at “path_to_your_anaconda_location/anaconda/envs/pytorch”
+
+### Activate your virtual environment
+
+To activate or switch into your virtual environment, simply type the following where yourenvname is the name you gave to your environement at creation.
+
+Linux 
+```
+source activate pytorch
+```
+
+windows
+```
+conda activate pytorch
+```
+Activating a conda environment modifies the PATH and shell variables to point to the specific isolated Python set-up you created. The command prompt will change to indicate which conda environemnt you are currently in by prepending (pytorch)
+
+To see a list of all your environments, use the command
+```
+conda info -e
+```
 
 ## Clone the repository
 
